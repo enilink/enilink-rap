@@ -1,0 +1,3 @@
+= Eclipse RAP workbench for the eniLINK Platform
+
+The RAP workbench allows to use KOMMA's RDFS/OWL editing capabilities within a web browser.
