@@ -37,9 +37,9 @@ public class CreateModelCommandHandler extends AbstractHandler {
 				@SuppressWarnings("serial")
 				@Override
 				protected String withService(final IModelSet modelSet) {
-					final boolean isAdmin = SecurityUtil.hasRole(
+					final boolean isAdmin = SecurityUtil.isMemberOf(
 							modelSet.getMetaDataManager(),
-							SecurityUtil.ROLE_ADMIN);
+							SecurityUtil.ADMINISTRATOR_GROUP);
 					URI user = SecurityUtil.getUser();
 					final URI modelNS = URIs
 							.createURI("http://enilink.net/models/"
