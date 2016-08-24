@@ -2,14 +2,14 @@
 <?pde version="3.8"?><target name="enilink-rap" sequenceNumber="29">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
-<unit id="net.enilink.platform.standalone.feature.feature.group" version="1.2.3.201607220849"/>
+<unit id="net.enilink.platform.standalone.feature.feature.group" version="1.2.3.201608031542"/>
 <unit id="net.enilink.komma.feature.feature.group" version="1.2.4"/>
-<unit id="net.enilink.platform.core.feature.feature.group" version="1.2.3.201607220849"/>
-<unit id="net.enilink.platform.core.feature.source.feature.group" version="1.2.3.201607220849"/>
+<unit id="net.enilink.platform.core.feature.feature.group" version="1.2.3.201608031542"/>
+<unit id="net.enilink.platform.core.feature.source.feature.group" version="1.2.3.201608031542"/>
 <unit id="org.eclipse.equinox.server.jetty.feature.group" version="1.2.2.v20160202-2102"/>
 <unit id="net.enilink.komma.edit.feature.feature.group" version="1.2.4"/>
-<unit id="net.enilink.platform.p2.feature.feature.group" version="1.2.3.201607220849"/>
-<repository location="https://dl.bintray.com/enilink/snapshots/enilink/1.2.3.201607220849/"/>
+<unit id="net.enilink.platform.p2.feature.feature.group" version="1.2.3.201608031542"/>
+<repository location="https://dl.bintray.com/enilink/snapshots/enilink/1.2.3.201608031542/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="net.enilink.komma.editor.feature.feature.group" version="1.2.4"/>
